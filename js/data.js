@@ -43,7 +43,7 @@ const PRODUCTS = [
     price: 169,
     category: "car-accessories",
     badge: "اختيارنا",
-    image: "",
+    image: "/joyroom-car-holder.jpg.png",
     url: "https://amzn.eu/d/0cp8HOV8",
   },
 ];
