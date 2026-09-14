@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Deals Egypt | أفضل العروض والمنتجات في مصر</title>
+  <meta name="description" content="اكتشف أفضل المنتجات والعروض المختارة في مصر مع Deals Egypt." />
+  <meta name="theme-color" content="#17161a" />
+  <link rel="canonical" href="https://dealsegypt.vercel.app/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Deals Egypt" />
+  <meta property="og:title" content="Deals Egypt | أفضل العروض والمنتجات في مصر" />
+  <meta property="og:description" content="اكتشف أفضل المنتجات والعروض المختارة في مصر مع Deals Egypt." />
+  <meta property="og:locale" content="ar_EG" />
+  <meta property="og:image" content="/assets/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:url" content="https://dealsegypt.vercel.app/" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Deals Egypt | أفضل العروض والمنتجات في مصر" />
+  <meta name="twitter:description" content="اكتشف أفضل المنتجات والعروض المختارة في مصر مع Deals Egypt." />
+  <meta name="twitter:image" content="/assets/og-image.png" />
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-180.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700;800&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="/css/style.css" />
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Deals Egypt",
+    "url": "https://dealsegypt.vercel.app/",
+    "inLanguage": "ar-EG"
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">تخطي إلى المحتوى</a>
+
+  <header class="site-header">
+    <div class="container site-header__bar">
+      <a href="#top" class="brand" id="top">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 7h16M6 7l1.5 12a2 2 0 002 2h5a2 2 0 002-2L18 7M9 7V5a3 3 0 016 0v2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <span>Deals Egypt 🇪🇬</span>
+      </a>
+      <div class="header-actions">
+        <button class="icon-btn" id="searchToggle" type="button" aria-label="بحث" aria-controls="searchBar">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.8"/>
+            <path d="M21 21l-4.3-4.3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="container search-bar" id="searchBar" hidden>
+      <input type="search" id="searchInput" placeholder="ابحث عن منتج..." aria-label="ابحث عن منتج" />
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container">
+        <p class="hero__eyebrow">Deals Egypt 🇪🇬</p>
+        <h1>🔥 عروض ومنتجات تستحق التجربة</h1>
+        <p>بنختار لك منتجات مميزة وعروض تستحق إنك تشوفها قبل ما تشتري.</p>
+        <a href="#products" class="btn btn--primary">شوف أحدث المنتجات ↓</a>
+      </div>
+    </section>
+
+    <section class="section" id="products" aria-labelledby="productsHeading">
+      <div class="container">
+        <div class="section__head">
+          <div>
+            <h2 id="productsHeading">🔥 أحدث المنتجات</h2>
+            <p>منتجات مختارة بعناية</p>
+          </div>
+        </div>
+
+        <div class="chips-row" id="categoriesRow" role="tablist" aria-label="تصفية حسب التصنيف"></div>
+
+        <div class="products-grid" id="productsGrid"></div>
+        <p class="empty-state" id="emptyState" hidden>مفيش منتجات مطابقة لبحثك دلوقتي.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="categoriesHeading">
+      <div class="container">
+        <div class="section__head">
+          <div>
+            <h2 id="categoriesHeading">تصفح حسب التصنيف</h2>
+          </div>
+        </div>
+        <div class="category-cards" id="categoryCardsGrid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__top">
+        <div>
+          <p class="site-footer__brand">Deals Egypt 🇪🇬</p>
+          <p class="site-footer__desc">منتجات وعروض مختارة للمستخدم المصري.</p>
+        </div>
+        <nav class="social-links" aria-label="روابط التواصل الاجتماعي">
+          <a href="#" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+          </a>
+          <a href="#" aria-label="TikTok">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 4v10.5a3.5 3.5 0 11-3-3.46" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M14 4c.4 2.2 2 4 4.5 4.3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          </a>
+          <a href="#" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 21v-7h2.4l.4-3H14V9c0-.9.3-1.5 1.7-1.5H17V4.8c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.5-4 4.1V11H8v3h2.6v7H14z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg>
+          </a>
+        </nav>
+      </div>
+      <div class="site-footer__bottom">
+        <span>© <span id="year">2026</span> Deals Egypt</span>
+        <span>صُنع بعناية في مصر 🇪🇬</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/data.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>
