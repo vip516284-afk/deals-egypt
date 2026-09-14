@@ -40,7 +40,7 @@ const PRODUCTS = [
     nameEn: "Joyroom Car Phone Holder",
     description:
       "حامل موبايل عملي للاستخدام داخل السيارة مع إمكانية تعديل زاوية الهاتف.",
-    price: 179,
+    price: 169,
     category: "car-accessories",
     badge: "اختيارنا",
     image: "",
