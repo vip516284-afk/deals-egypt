@@ -43,7 +43,7 @@ const PRODUCTS = [
     price: 1099,
     category: "electronics",
     badge: "عرض",
-    image: "",
+    image: "/orimo-osw-30-r2.jpg",
     url: "https://amzn.eu/d/06f79ffR",
   },
   {
