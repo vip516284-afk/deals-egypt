@@ -35,19 +35,6 @@ const CATEGORIES = [
 // ------------------------------------------------------------------------
 const PRODUCTS = [
   {
-    id: "joyroom-car-phone-holder",
-    name: "حامل موبايل للسيارة من Joyroom",
-    nameEn: "Joyroom Car Phone Holder",
-    description:
-      "حامل موبايل عملي للاستخدام داخل السيارة مع إمكانية تعديل زاوية الهاتف.",
-    price: 169,
-    category: "car-accessories",
-    badge: "اختيارنا",
-    image: "/joyroom-car-holder.jpg.png",
-    url: "https://amzn.eu/d/0cp8HOV8",
-  },
-
-  {
     id: "orimo-osw-30-r2-smartwatch",
     name: "ساعة ذكية من اورايمو OSW-30 R2",
     nameEn: "Orimo OSW-30 R2 Smart Watch",
@@ -58,6 +45,18 @@ const PRODUCTS = [
     badge: "عرض",
     image: "",
     url: "https://amzn.eu/d/06f79ffR",
+  },
+  {
+    id: "joyroom-car-phone-holder",
+    name: "حامل موبايل للسيارة من Joyroom",
+    nameEn: "Joyroom Car Phone Holder",
+    description:
+      "حامل موبايل عملي للاستخدام داخل السيارة مع إمكانية تعديل زاوية الهاتف.",
+    price: 169,
+    category: "car-accessories",
+    badge: "اختيارنا",
+    image: "/joyroom-car-holder.jpg.png",
+    url: "https://amzn.eu/d/0cp8HOV8",
   },
 ];
 
