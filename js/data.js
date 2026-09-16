@@ -47,3 +47,16 @@ const PRODUCTS = [
     url: "https://amzn.eu/d/0cp8HOV8",
   },
 ];
+
+{
+    id: "orimo-osw-30-r2-smartwatch",
+    name: "ساعة ذكية من اورايمو OSW-30 R2",
+    nameEn: "Orimo OSW-30 R2 Smart Watch",
+    description:
+      "ساعة ذكية OSW-30 بشاشة HD عالية الدقة 1.39 بوصة مع مكالمات عبر البلوتوث.",
+    price: 1099,
+    category: "electronics",
+    badge: "عرض",
+    image: "",
+    url: "https://amzn.eu/d/06f79ffR",
+  },
