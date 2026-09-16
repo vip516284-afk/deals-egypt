@@ -46,9 +46,8 @@ const PRODUCTS = [
     image: "/joyroom-car-holder.jpg.png",
     url: "https://amzn.eu/d/0cp8HOV8",
   },
-];
 
-{
+  {
     id: "orimo-osw-30-r2-smartwatch",
     name: "ساعة ذكية من اورايمو OSW-30 R2",
     nameEn: "Orimo OSW-30 R2 Smart Watch",
@@ -60,3 +59,5 @@ const PRODUCTS = [
     image: "",
     url: "https://amzn.eu/d/06f79ffR",
   },
+];
+
